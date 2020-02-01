@@ -8,8 +8,9 @@
     "Liquidwarp"
   ],
   "contact": {
-    "homepage": "https://github.com/LiquidwarpMC",
-    "sources": "https://github.com/LiquidwarpMC/photoallergic-creepers"
+    "homepage": "https://minecraft.curseforge.com/projects/Photoallergic-Creepers",
+    "sources": "https://github.com/LiquidwarpMC/photoallergic-creepers",
+    "issues": "https://github.com/LiquidwarpMC/photoallergic-creepers/issues"
   },
   "license": "MIT",
   "icon": "assets/photoallergiccreepers/icon.png",
