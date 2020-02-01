@@ -1,30 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "photoallergiccreepers",
   "version": "${version}",
-  "name": "Name",
-  "description": "Description",
+  "name": "Photoallergic Creepers",
+  "description": "Creepers burn in sunlight, just like zombies.",
   "authors": [
     "Liquidwarp"
   ],
   "contact": {
     "homepage": "https://github.com/LiquidwarpMC",
-    "sources": "https://github.com/LiquidwarpMC/modid"
+    "sources": "https://github.com/LiquidwarpMC/photoallergic-creepers"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/photoallergiccreepers/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.liquidwarpmc.modid.Mod"
+      "net.liquidwarpmc.photoallergiccreepers.PhotoallergicCreepers"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "photoallergiccreepers.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.7.2",
-    "fabric": "*",
     "minecraft": "1.15.x"
   }
 }
